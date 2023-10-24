@@ -1,0 +1,21 @@
+            let btn1_color = document.getElementById("btn1"); 
+            let btn2_color = document.getElementById("btn2");
+            console.log(typeof(jsondata.tempstr)); //경고
+            console.log(jsondata.sunstr); //주의
+
+            if (jsondata.tempstr == "주의"){
+              console.log("버튼1 주의");
+              btn1_color.style.backgroundColor = "#ffff00";
+            }
+            else if(jsondata.tempstr =="경고"){
+              console.log("버튼1 경고");
+              btn1_color.style.backgroundColor = "#ff0000";
+            }
+            if (jsondata.sunstr =="높음"){
+              console.log("버튼2 주의");
+              btn2_color.style.backgroundColor = "#ffff00";
+            }
+            else if(jsondata.sunstr == "매우높음"){
+              console.log("버튼2 경고");
+              btn2_color.style.backgroundColor = "#ff0000";
+            }

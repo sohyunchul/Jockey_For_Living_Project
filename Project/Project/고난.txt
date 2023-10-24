@@ -1,0 +1,16 @@
+어려웠던 점들
+1. 시간별로 온도 출력
+2. 업데이트 시간에 출력x (정시 ~ 최대 15분정도 소요)
+3. 이미지 대신 버튼으로 변경
+
+<ul>
+    {% for key, value in template_dict.items() %}
+    <li>{{ key }} : {{ value }}</li>
+    {% endfor %}
+</ul>
+
+                    {% for key, value in temp.items() %}
+                      <h2 class="card-text">{{key}} -> {{ value }}&deg;C</h2>
+                    {% endfor %}
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
